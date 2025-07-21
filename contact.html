@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EBED'S HUB</title>
+    <meta name="description" content="Get in touch with EBED'S HUB - your trusted campus beauty and fashion destination">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>EBED'S HUB</h2>
+                <span class="tagline">GCTU's Beauty Destination</span>
+            </div>
+            <ul class="nav-menu">
+                <li><button id="darkModeToggle" class="nav-link" style="background:none;border:none;cursor:pointer;display:flex;align-items:center;" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="#" class="nav-link cart-icon"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're here to help with all your beauty and fashion needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <h2>Send us a Message</h2>
+                    <p>Have questions about our products or need help with your order? We'd love to hear from you!</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="student-id">Student ID (Optional)</label>
+                            <input type="text" id="student-id" name="student-id" placeholder="For student discounts">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choose a topic</option>
+                                <option value="product-inquiry">Product Inquiry</option>
+                                <option value="order-support">Order Support</option>
+                                <option value="delivery">Delivery Question</option>
+                                <option value="student-discount">Student Discount</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>We're always excited to connect with fellow GCTU students and help you find the perfect products!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Visit Our Location</h3>
+                                <p>GCTU Campus<br>
+                                Near the Main Library<br>
+                                Accra, Ghana</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Us</h3>
+                                <p>+233 59 117 7499<br>
+                                Monday - Friday: 8AM - 6PM<br>
+                                Saturday: 9AM - 4PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Us</h3>
+                                <p>asareezekiel63@gmail.com<br>
+                                bediakoezekiel36@gmail.com<br>
+                                We reply within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                Saturday: 9:00 AM - 4:00 PM<br>
+                                Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-media">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                        <a href="https://instagram.com/lil_jnr3" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/ebed_hub" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://tiktok.com/@ebed_hub" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/+233591177499" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer student discounts?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! All GCTU students receive automatic discounts on our products. Just provide your student ID when shopping with us. Additional discounts are available during special campus events.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How does campus delivery work?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer free delivery within GCTU campus for orders above GH₵50. Orders are typically delivered within 2-3 hours during business hours. We'll contact you when your order is ready for delivery.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept mobile money (MTN, Vodafone, AirtelTigo), bank transfers, and cash on delivery for campus orders. Student payment plans are also available for larger purchases.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I return or exchange products?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have a 7-day return policy for unused cosmetics and a 14-day policy for fashion items. Products must be in original condition with receipt. Exchanges are welcome for different sizes or shades.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you have a physical store on campus?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We operate primarily online and through campus delivery, but we set up pop-up shops during special events and have a pickup location near the main library. Follow our social media for pop-up announcements!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I become a campus representative?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We're always looking for enthusiastic GCTU students to join our team! Campus reps earn commission on sales and get exclusive access to new products. Contact us for more information about opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Find Us on Campus</h2>
+                <p>Located conveniently within GCTU for easy access</p>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>GCTU Campus Location</h3>
+                    <p>We're located near the main library for convenient pickup and consultations</p>
+                    <div class="map-details">
+                        <p><strong>Pickup Location:</strong> Near Main Library</p>
+                        <p><strong>Campus Address:</strong> GCTU, Accra</p>
+                        <p><strong>Landmark:</strong> Close to the Student Center</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EBED'S_HUB</h3>
+                    <p>Your trusted campus beauty and fashion destination, serving GCTU students with quality products at student-friendly prices.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/lil_jnr3" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/ebed_hub" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://tiktok.com/@ebed_hub" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/+233591177499" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="products.html">Cosmetics</a></li>
+                        <li><a href="products.html">Fashion</a></li>
+                        <li><a href="products.html">Accessories</a></li>
+                        <li><a href="products.html">Student Deals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> GCTU Campus, Accra</p>
+                    <p><i class="fas fa-phone"></i> +233 59 117 7499</p>
+                    <p><i class="fas fa-envelope"></i> asareeekiel63@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EBED'S_HUB. All rights reserved. | Proudly serving GCTU students</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      // Hamburger menu toggle for mobile
+      const hamburger = document.querySelector('.hamburger');
+      const navMenu = document.querySelector('.nav-menu');
+      if (hamburger && navMenu) {
+        hamburger.addEventListener('click', () => {
+          navMenu.classList.toggle('active');
+        });
+      }
+      // Dark mode toggle
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      if (darkModeToggle) {
+        darkModeToggle.addEventListener('click', () => {
+          document.body.classList.toggle('dark-mode');
+          if (document.body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+          } else {
+            localStorage.setItem('theme', 'light');
+          }
+        });
+      }
+      if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+      }
+    </script>
+</body>
+</html>
